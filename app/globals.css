@@ -9,6 +9,19 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+.custom-btn {
+  @apply bg-blue-600 text-white font-bold py-3 px-6 rounded-full 
+         hover:bg-blue-700 transition-all duration-300;
+}
+
+.hero{
+  @apply flex xl:flex-row flex-col gap-5
+  relative z-0 max-w-[1440px] mx-auto;
+}
+.hero__title{
+  @apply 2xl:text-[72px] sm:text-[64px] text-[50px]
+  font-extrabold;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
