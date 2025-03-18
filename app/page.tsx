@@ -19,6 +19,7 @@ export default  async function Home() {
           <p>Explore the cars you might like</p>
           <p>This is new feature</p>
           <p>this feature</p>
+          <p>One more feature</p>
       
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
